@@ -6,14 +6,17 @@ import Footer from "../layout/Footer"
 
 const Home = () => {
   return (
-     <>
-         <Header />
-         <div id="main">
-             <Sidebar />
-             <Content />
-         </div>
-         <Footer />
- </>
+    <>
+      <Header />
+      <div id="main">
+        <Sidebar />
+        <Content>
+          <h1>Home</h1>
+        </Content>
+
+      </div>
+      <Footer />
+    </>
 
   )
 }

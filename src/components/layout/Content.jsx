@@ -1,11 +1,17 @@
-import "./Content.css"
+import PropTypes from 'prop-types'; // Certifique-se de ter o pacote 'prop-types' instalado
 
-const Content = () => {
+import "./Content.css";
+
+const Content = ({ children }) => {
   return (
     <div id="content">
-        <h1>Content</h1>
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default Content
+Content.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
+export default Content;
