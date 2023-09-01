@@ -1,4 +1,6 @@
 import Header from "../layout/Header"
+import Sidebar from "../layout/Sidebar"
+import Content from "../layout/Content"
 import Footer from "../layout/Footer"
 
 const Page404 = () => {
