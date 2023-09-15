@@ -3,16 +3,19 @@ import Sidebar from "../layout/Sidebar"
 import Content from "../layout/Content"
 import Footer from "../layout/Footer"
 
-const Page404 = () => {
+const QuemSomos = () => {
   return (
     <>
         <Header />
         <div id="main">
-          <h1>Página Não Encontrada</h1>
+            <Sidebar />
+            <Content>
+              <h1>Quem Somos</h1>
+            </Content>
         </div>
         <Footer />
     </>
   )
 }
 
-export default Page404
+export default QuemSomos
