@@ -7,10 +7,11 @@ const Header = () => {
     <header>
         <h1>Coffee & Mountain</h1>
         <nav>
-            <ul>
+           <ul>
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to="/quem-somos">Quem Somos</NavLink></li>
                 <li><NavLink to="/contato">Contato</NavLink></li>
+                <li><NavLink to="/produtos">Produtos</NavLink></li>
                 <li><Button variant="primary">Login</Button></li>
                 <li><Button variant="secondary">Cadastre-se</Button></li>
             </ul>
