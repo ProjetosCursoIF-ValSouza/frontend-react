@@ -14,7 +14,7 @@ const Header = () => {
     <header>
         <h1>Coffee & Mountain - {nameUser}</h1>
         <nav>
-            <ul>
+           <ul>
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to="/quem-somos">Quem Somos</NavLink></li>
                 <li><NavLink to="/contato">Contato</NavLink></li>
